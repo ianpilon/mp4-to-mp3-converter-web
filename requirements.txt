@@ -1,0 +1,14 @@
+ << 'EOL'
+# Paste the main.py contents here
+EOL
+cat > vercel.json
+ << 'EOL'
+# Paste the main.py contents here
+EOL
+git status
+
+git add main.py
+git add static/style.css
+git add templates/index.html
+git add requirements.txt
+git add vercel.json
